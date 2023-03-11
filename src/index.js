@@ -6,6 +6,7 @@ const sql = require('./db')
 const app = express()
 const port = 3000
 
+
 const readIndex = () => {
     try {
         const data = fs.readFileSync('html/index.html', 'utf8');
